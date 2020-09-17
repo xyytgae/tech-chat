@@ -40,7 +40,7 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: ['~/plugins/firebase', '~/plugins/auth'],
+  plugins: ['~/plugins/firebase', '~/plugins/auth', '~/plugins/user'],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
